@@ -1,0 +1,31 @@
+<!-- ===================================================== -->
+<!-- YAPEROSHOP KATALOGORAKO DTD (BALIOZTAPENA)          -->
+<!-- ===================================================== -->
+
+<!-- Katalogo nagusia: gutxienez kategoria bat -->
+<!ELEMENT katalogoa (kategoria+)>
+<!ATTLIST katalogoa
+    tienda CDATA #FIXED "YAPEROSHOP"
+    moneda (EUR|USD) "EUR"
+>
+
+<!-- Kategoriak: gutxienez produktu bat -->
+<!ELEMENT kategoria (produktua+)>
+<!ATTLIST kategoria
+    id ID #REQUIRED
+    izena CDATA #IMPLIED
+>
+
+<!-- Produktuak: izena, prezioa, irudia eta url -->
+<!ELEMENT produktua (izena, prezioa, irudia, url)>
+<!ATTLIST produktua
+    id ID #REQUIRED
+    deskontua CDATA "0"
+    categoriaRef IDREF #REQUIRED
+>
+
+<!-- Testuzko elementuak -->
+<!ELEMENT izena (#PCDATA)>
+<!ELEMENT prezioa (#PCDATA)>
+<!ELEMENT irudia (#PCDATA)>
+<!ELEMENT url (#PCDATA)>

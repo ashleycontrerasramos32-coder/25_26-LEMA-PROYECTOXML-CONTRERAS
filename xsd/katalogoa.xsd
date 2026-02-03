@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- ============================= -->
+    <!-- PREZIOAREN DATU-MOTA         -->
+    <!-- ============================= -->
+    <xs:simpleType name="prezioType">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="1"/>
+            <xs:maxInclusive value="500"/>
+            <xs:fractionDigits value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- ============================= -->
+    <!-- URL-AREN DATU-MOTA (PATTERN) -->
+    <!-- ============================= -->
+    <xs:simpleType name="urlType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="https://www\.yaperoshop\.com/.*"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- ============================= -->
+    <!-- IRUDIAREN DATU-MOTA (PATTERN)-->
+    <!-- ============================= -->
+    <xs:simpleType name="irudiType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\.\./images/.*\.(jpg|png|jpeg)"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- ============================= -->
+    <!-- DESKONTUAREN DATU-MOTA       -->
+    <!-- ============================= -->
+    <xs:simpleType name="deskontuType">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="100"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- ============================= -->
+    <!-- KATALOGOA (ELEMENTU NAGUSIA) -->
+    <!-- ============================= -->
+    <xs:element name="katalogoa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="kategoria" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="produktua" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="izena" type="xs:string"/>
+                                        <xs:element name="prezioa" type="prezioType"/>
+                                        <xs:element name="irudia" type="irudiType"/>
+                                        <xs:element name="url" type="urlType"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"/>
+                                    <xs:attribute name="deskontua" type="deskontuType"/>
+                                    <xs:attribute name="categoriaRef" type="xs:IDREF" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:ID" use="required"/>
+                        <xs:attribute name="izena" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="tienda" type="xs:string" use="required"/>
+            <xs:attribute name="moneda" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

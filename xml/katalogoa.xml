@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE katalogoa SYSTEM "../dtd/katalogoa.dtd">
+
+<!-- YAPEROSHOP katalogo nagusia -->
+<katalogoa tienda="YAPEROSHOP" moneda="EUR">
+
+    <!-- Emakumezko arropa kategoria -->
+    <kategoria id="c1" izena="Emakumezko">
+        <produktua id="e1" deskontua="10" categoriaRef="c1">
+            <izena>Sweetra Soinekoa</izena>
+            <prezioa>20.99</prezioa>
+            <irudia>../images/SWEETRA_Soinekoa.jpg</irudia>
+            <url>https://www.yaperoshop.com/sweetra</url>
+        </produktua>
+
+        <produktua id="e2" deskontua="0" categoriaRef="c1">
+            <izena>Alkandora Marraduna</izena>
+            <prezioa>15.99</prezioa>
+            <irudia>../images/Emakume_kamisa_kasuala.jpg</irudia>
+            <url>https://www.yaperoshop.com/alkandora</url>
+        </produktua>
+
+        <produktua id="e3" deskontua="5" categoriaRef="c1">
+            <izena>Bakero Prakak</izena>
+            <prezioa>18.99</prezioa>
+            <irudia>../images/Emakume_prakak_urdinak.jpg</irudia>
+            <url>https://www.yaperoshop.com/prakak</url>
+        </produktua>
+    </kategoria>
+
+    <!-- Gizonezko arropa kategoria -->
+    <kategoria id="c2" izena="Gizonezko">
+        <produktua id="g1" deskontua="15" categoriaRef="c2">
+            <izena>Txandal Galtzak</izena>
+            <prezioa>23.45</prezioa>
+            <irudia>../images/Manfinity_Hypemode_Txandal-galtzak.jpg</irudia>
+            <url>https://www.yaperoshop.com/txandal</url>
+        </produktua>
+
+        <produktua id="g2" deskontua="0" categoriaRef="c2">
+            <izena>Kamiseta Mahuka Luzekoa</izena>
+            <prezioa>33.45</prezioa>
+            <irudia>../images/AXEPEAK_Mahuka_luzeko_kamiseta.jpg</irudia>
+            <url>https://www.yaperoshop.com/kamiseta</url>
+        </produktua>
+
+        <produktua id="g3" deskontua="20" categoriaRef="c2">
+            <izena>Jaka Txanoduna</izena>
+            <prezioa>63.45</prezioa>
+            <irudia>../images/AXEPEAK_Txanodun_jaka.jpg</irudia>
+            <url>https://www.yaperoshop.com/jaka</url>
+        </produktua>
+    </kategoria>
+
+</katalogoa>
