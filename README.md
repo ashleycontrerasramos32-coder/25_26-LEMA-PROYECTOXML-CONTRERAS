@@ -1,3 +1,4 @@
+
 #YAPEROSHOP - XML proiektua
 
 Proiektu honek barne hartzen ditu:
@@ -21,3 +22,5 @@ Guztira:
 
 ##Egilea
 Ashley Sienna Contreras Ramos eta Ismail Achlouch
+Proyecto finalizado y revisado para entrega.
+
