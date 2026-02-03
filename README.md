@@ -19,5 +19,5 @@ Guztira:
 <─ ─ ─ xsl /
 ─ ─ ─ irudiak /
 
-# #Egilea
-Ashley Sienna Contreras Ramos
+##Egilea
+Ashley Sienna Contreras Ramos eta Ismail Achlouch
