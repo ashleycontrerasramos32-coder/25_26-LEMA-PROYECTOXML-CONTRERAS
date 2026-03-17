@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="yaperoshop_rss.xsl"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>YaperoShop-Albisteak</title>
+        <link>https://ashleycontrerasramos32-coder.github.io/25_26-LEMA-PROYECTOXML-CONTRERAS/</link>
+        <description>YaperoShop arropa webgunearen modari buruzko azken berriak</description>
+
+        <!-- Aukerazko elementuak -->
+        <language>eu-ES</language>
+        <ttl>60</ttl>
+        <generator>Visual Studio Code</generator>
+        <lastBuildDate>Mon, 09 Mar 2026 10:00:00 +0100</lastBuildDate>
+        <category domain="moda">Moda</category>
+        <atom:link href="https://ashleycontrerasramos32-coder.github.io/25_26-LEMA-PROYECTOXML-CONTRERAS/yaperoshop_rss.xml" rel="self" type="application/rss+xml"/>
+
+        <!-- ITEM 1 -->
+        <item>
+            <title><![CDATA[ Louis Vuitton markak denda temporala ireki du Bartzelonan ]]></title>
+            <guid>https://elpais.com/smoda/2026-02-18/louis-vuitton-abre-una-tienda-temporal-en-barcelona-mientras-reforma-su-buque-insignia.html</guid>
+            <link>https://elpais.com/smoda/2026-02-18/louis-vuitton-abre-una-tienda-temporal-en-barcelona-mientras-reforma-su-buque-insignia.html</link>
+            <pubDate>Wed, 18 Feb 2026 09:00:00 +0100</pubDate>
+            <description>Louis Vuitton markak denda temporala ireki du Bartzelonan bere denda nagusia berritzen duen bitartean.</description>
+        </item>
+
+        <!-- ITEM 2 -->
+        <item>
+            <title><![CDATA[ Saks Globalek bederatzi luxuzko denda itxiko ditu AEBetan ]]></title>
+            <guid>https://elpais.com/economia/2026-02-11/saks-global-la-cadena-que-vende-chanel-y-burberry-en-almacenes-de-lujo-cierra-nueve-tiendas-en-ee-uu.html</guid>
+            <link>https://elpais.com/economia/2026-02-11/saks-global-la-cadena-que-vende-chanel-y-burberry-en-almacenes-de-lujo-cierra-nueve-tiendas-en-ee-uu.html</link>
+            <pubDate>Wed, 11 Feb 2026 09:30:00 +0100</pubDate>
+            <description>Saks Global enpresak hainbat denda ixtea erabaki du merkataritza digitalaren gorakadaren ondorioz.</description>
+        </item>
+
+        <!-- ITEM 3 -->
+        <item>
+            <title><![CDATA[ Celia B marka espainiarraren arrakasta nazioartean ]]></title>
+            <guid>https://elpais.com/smoda/moda/2026-01-30/celia-b-la-historia-de-la-marca-de-moda-de-oviedo-nacida-en-shanghai-que-conquista-estados-unidos-y-netflix-con-sus-disenos-coloridos.html</guid>
+            <link>https://elpais.com/smoda/moda/2026-01-30/celia-b-la-historia-de-la-marca-de-moda-de-oviedo-nacida-en-shanghai-que-conquista-estados-unidos-y-netflix-con-sus-disenos-coloridos.html</link>
+            <pubDate>Fri, 30 Jan 2026 10:30:00 +0100</pubDate>
+            <description>Oviedon sortutako Celia B markak arrakasta handia izan du bere diseinu koloretsuekin.</description>
+        </item>
+
+        <!-- ITEM 4 -->
+        <item>
+            <title><![CDATA[ Inditex taldearen egoera eta Zara markaren etorkizuna ]]></title>
+            <guid>https://www.elperiodico.com/es/economia/20260308/situacion-inditex-2026-tocado-techo-transformacion-zara-estados-unidos-127628423</guid>
+            <link>https://www.elperiodico.com/es/economia/20260308/situacion-inditex-2026-tocado-techo-transformacion-zara-estados-unidos-127628423</link>
+            <pubDate>Sun, 08 Mar 2026 11:00:00 +0100</pubDate>
+            <description>Inditex enpresak bere estrategia berritu nahi du nazioarteko merkatuan hazten jarraitzeko.</description>
+        </item>
+
+        <!-- ITEM 5 -->
+        <item>
+            <title><![CDATA[ Zalandok bigarren eskuko haurrentzako moda zabaltzen du ]]></title>
+            <guid>https://www.revistainforetail.com/noticiadet/zalando-amplia-la-categoria-de-segunda-mano-con-moda-infantil/19973f9874e7b3e4e3a7d78320a3326b</guid>
+            <link>https://www.revistainforetail.com/noticiadet/zalando-amplia-la-categoria-de-segunda-mano-con-moda-infantil/19973f9874e7b3e4e3a7d78320a3326b</link>
+            <pubDate>Fri, 20 Feb 2026 08:30:00 +0100</pubDate>
+            <description>Zalando plataformak bigarren eskuko arropa saltzeko aukera berriak gehitu ditu haurrentzako kategorian.</description>
+        </item>
+    </channel>
+</rss>
